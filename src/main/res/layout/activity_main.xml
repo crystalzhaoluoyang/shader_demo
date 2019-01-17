@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.yuxi.shader.bitmap_shader.CircleShaderView
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+            <com.yuxi.shader.bitmap_shader.BitmapTileMode
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+            <com.yuxi.shader.linearGradient.LinearGradientView
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+            <com.yuxi.shader.bitmap_shader.MirrorView
+                android:layout_width="match_parent"
+                android:layout_height="600dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
